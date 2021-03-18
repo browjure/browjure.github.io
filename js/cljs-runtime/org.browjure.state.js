@@ -8,12 +8,12 @@ var dataset = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(org
 var controls = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(org.browjure.state.registry),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ident,new cljs.core.Keyword("dataset","controls","dataset/controls",-1981558636)));
 var keyz = cljs.core.keys(controls);
 var valz = cljs.core.map.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"subject","subject",-1411880451),cljs.core.vals(controls));
-var deps = cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__83664){
-var vec__83665 = p__83664;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__83665,(0),null);
-var vec__83668 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__83665,(1),null);
-var dataset__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__83668,(0),null);
-var attribute = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__83668,(1),null);
+var deps = cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__72333){
+var vec__72334 = p__72333;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72334,(0),null);
+var vec__72337 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72334,(1),null);
+var dataset__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72337,(0),null);
+var attribute = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72337,(1),null);
 var dep_path = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("dataset","id","dataset/id",1129473468),dataset__$1], null),(cljs.core.truth_(attribute)?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("dataset","controls","dataset/controls",-1981558636),attribute], null):null),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"subject","subject",-1411880451)], null)], 0));
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(org.browjure.state.registry),dep_path)], null);
 }),new cljs.core.Keyword("dataset","dependencies","dataset/dependencies",2019679717).cljs$core$IFn$_invoke$arity$1(dataset)));
@@ -37,9 +37,9 @@ return cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(org.browju
 });
 org.browjure.state.use_path_sub = (function org$browjure$state$use_path_sub(path,init_value){
 var subject = org.browjure.state.get_or_create_subject(path,init_value);
-var vec__83676 = module$node_modules$react$index.useState(init_value);
-var state = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__83676,(0),null);
-var set_state = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__83676,(1),null);
+var vec__72340 = module$node_modules$react$index.useState(init_value);
+var state = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72340,(0),null);
+var set_state = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72340,(1),null);
 module$node_modules$react$index.useEffect((function (){
 subject.subscribe(set_state);
 
@@ -53,18 +53,18 @@ return state;
 org.browjure.state.set_path_value = (function org$browjure$state$set_path_value(path,value){
 return org.browjure.state.get_or_create_subject(path,value).next(value);
 });
-org.browjure.state.use_combined_sub = (function org$browjure$state$use_combined_sub(p__83684){
-var map__83685 = p__83684;
-var map__83685__$1 = (((((!((map__83685 == null))))?(((((map__83685.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__83685.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__83685):map__83685);
-var deps = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__83685__$1,new cljs.core.Keyword(null,"deps","deps",1883360319));
-var reduce_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__83685__$1,new cljs.core.Keyword(null,"reduce-fn","reduce-fn",1170414925));
-var init_value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__83685__$1,new cljs.core.Keyword(null,"init-value","init-value",-374892331));
-var path = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__83685__$1,new cljs.core.Keyword(null,"path","path",-188191168));
+org.browjure.state.use_combined_sub = (function org$browjure$state$use_combined_sub(p__72343){
+var map__72344 = p__72343;
+var map__72344__$1 = (((((!((map__72344 == null))))?(((((map__72344.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__72344.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__72344):map__72344);
+var deps = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__72344__$1,new cljs.core.Keyword(null,"deps","deps",1883360319));
+var reduce_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__72344__$1,new cljs.core.Keyword(null,"reduce-fn","reduce-fn",1170414925));
+var init_value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__72344__$1,new cljs.core.Keyword(null,"init-value","init-value",-374892331));
+var path = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__72344__$1,new cljs.core.Keyword(null,"path","path",-188191168));
 var value = org.browjure.state.use_path_sub(path,init_value);
-var dep_subjects = cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__83687){
-var vec__83688 = p__83687;
-var dep_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__83688,(0),null);
-var dep_path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__83688,(1),null);
+var dep_subjects = cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__72346){
+var vec__72347 = p__72346;
+var dep_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72347,(0),null);
+var dep_path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72347,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [dep_name,org.browjure.state.get_or_create_subject(dep_path,null)], null);
 }),deps));
 var latest_combinations = module$node_modules$rxjs$dist$cjs$index.combineLatest(cljs.core.to_array(cljs.core.vals(dep_subjects))).pipe(module$node_modules$rxjs$dist$cjs$operators$index.map((function (new_vals){
@@ -84,8 +84,8 @@ return sub.unsubscribe();
 return value;
 });
 org.browjure.state.window_resolve = (function org$browjure$state$window_resolve(symbol){
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__83691_SHARP_,p2__83692_SHARP_){
-return (p1__83691_SHARP_[p2__83692_SHARP_]);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__72350_SHARP_,p2__72351_SHARP_){
+return (p1__72350_SHARP_[p2__72351_SHARP_]);
 }),window,cljs.core.conj.cljs$core$IFn$_invoke$arity$2(clojure.string.split.cljs$core$IFn$_invoke$arity$2(clojure.string.replace(cljs.core.namespace(symbol),"-","_"),"."),clojure.string.replace(cljs.core.name(symbol),"-","_")));
 });
 org.browjure.state.compile = (function org$browjure$state$compile(form){

@@ -128,8 +128,11 @@ SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$scanI
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$reduce.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$toArray.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$joinAllInternals.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$combineLatestAll.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$combineAll.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$combineLatest.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$combineLatestWith.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$concat.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$concatMap.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$concatMapTo.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$concatWith.js");
@@ -153,6 +156,7 @@ SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$eleme
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$endWith.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$every.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$exhaustAll.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$exhaust.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$exhaustMap.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$expand.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$finalize.js");
@@ -165,9 +169,11 @@ SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$takeL
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$last.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$materialize.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$max.js");
-SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$mergeWith.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$merge.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$flatMap.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$mergeMapTo.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$mergeScan.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$mergeWith.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$min.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$multicast.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$pairwise.js");
@@ -178,6 +184,7 @@ SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$publi
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$publishLast.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$publishReplay.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$raceWith.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$race.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$repeat.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$repeatWhen.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$retry.js");
@@ -212,8 +219,9 @@ SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$windo
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$windowToggle.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$windowWhen.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$withLatestFrom.js");
-SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$zipWith.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$zip.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$zipAll.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$operators$zipWith.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$operators$index.js");
 SHADOW_ENV.setLoaded("module$node_modules$object_assign$index.js");
 SHADOW_ENV.setLoaded("module$node_modules$react$cjs$react_production_min.js");
