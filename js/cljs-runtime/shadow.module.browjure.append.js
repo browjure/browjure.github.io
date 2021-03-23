@@ -357,8 +357,6 @@ SHADOW_ENV.setLoaded("module$node_modules$scheduler$cjs$scheduler_production_min
 SHADOW_ENV.setLoaded("module$node_modules$scheduler$cjs$scheduler_development.js");
 SHADOW_ENV.setLoaded("module$node_modules$scheduler$index.js");
 SHADOW_ENV.setLoaded("module$node_modules$react_dom$cjs$react_dom_production_min.js");
-SHADOW_ENV.setLoaded("module$node_modules$prop_types$lib$ReactPropTypesSecret.js");
-SHADOW_ENV.setLoaded("module$node_modules$prop_types$checkPropTypes.js");
 SHADOW_ENV.setLoaded("module$node_modules$scheduler$cjs$scheduler_tracing_production_min.js");
 SHADOW_ENV.setLoaded("module$node_modules$scheduler$cjs$scheduler_tracing_development.js");
 SHADOW_ENV.setLoaded("module$node_modules$scheduler$tracing.js");
@@ -371,6 +369,8 @@ SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$extends.js");
 SHADOW_ENV.setLoaded("module$node_modules$react_is$cjs$react_is_production_min.js");
 SHADOW_ENV.setLoaded("module$node_modules$react_is$cjs$react_is_development.js");
 SHADOW_ENV.setLoaded("module$node_modules$react_is$index.js");
+SHADOW_ENV.setLoaded("module$node_modules$prop_types$lib$ReactPropTypesSecret.js");
+SHADOW_ENV.setLoaded("module$node_modules$prop_types$checkPropTypes.js");
 SHADOW_ENV.setLoaded("module$node_modules$prop_types$factoryWithTypeCheckers.js");
 SHADOW_ENV.setLoaded("module$node_modules$prop_types$factoryWithThrowingShims.js");
 SHADOW_ENV.setLoaded("module$node_modules$prop_types$index.js");
@@ -394,4 +394,6 @@ SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$classCallCheck.
 SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$inherits.js");
 SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$possibleConstructorReturn.js");
 SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$getPrototypeOf.js");
+SHADOW_ENV.setLoaded("module$node_modules$process$browser.js");
+SHADOW_ENV.setLoaded("module$node_modules$ieee754$index.js");
 SHADOW_ENV.setLoaded("shadow.module.browjure.append.js");

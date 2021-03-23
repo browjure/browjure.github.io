@@ -2,8 +2,8 @@ goog.provide('devtools.formatters.helpers');
 devtools.formatters.helpers.pref = (function devtools$formatters$helpers$pref(v){
 while(true){
 if((v instanceof cljs.core.Keyword)){
-var G__58470 = devtools.prefs.pref(v);
-v = G__58470;
+var G__60659 = devtools.prefs.pref(v);
+v = G__60659;
 continue;
 } else {
 return v;
@@ -48,7 +48,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(cljs.core.IPrintWithWriter,value);
 }
-}catch (e58420){var _e__57494__auto__ = e58420;
+}catch (e60611){var _e__59405__auto__ = e60611;
 return false;
 }})();
 if(cljs.core.truth_(or__4126__auto__)){
@@ -67,7 +67,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e58425){var _e__57494__auto__ = e58425;
+}catch (e60615){var _e__59405__auto__ = e60615;
 return false;
 }})();
 if(cljs.core.truth_(or__4126__auto____$1)){
@@ -86,7 +86,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e58429){var _e__57494__auto__ = e58429;
+}catch (e60617){var _e__59405__auto__ = e60617;
 return false;
 }}
 }
@@ -139,9 +139,9 @@ return ((value === true) || (value === false));
 devtools.formatters.helpers.instance_of_a_well_known_type_QMARK_ = (function devtools$formatters$helpers$instance_of_a_well_known_type_QMARK_(value){
 var well_known_types = devtools.formatters.helpers.pref(new cljs.core.Keyword(null,"well-known-types","well-known-types",70638649));
 var constructor_fn = devtools.formatters.helpers.get_constructor(value);
-var vec__58450 = devtools.munging.parse_constructor_info(constructor_fn);
-var ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58450,(0),null);
-var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58450,(1),null);
+var vec__60632 = devtools.munging.parse_constructor_info(constructor_fn);
+var ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60632,(0),null);
+var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60632,(1),null);
 var fully_qualified_type_name = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(ns),"/",cljs.core.str.cljs$core$IFn$_invoke$arity$1(name)].join('');
 return cljs.core.contains_QMARK_(well_known_types,fully_qualified_type_name);
 });
@@ -157,8 +157,8 @@ devtools.formatters.helpers.directly_printable_QMARK_ = (function devtools$forma
 return ((typeof value === 'string') || (typeof value === 'number') || (devtools.formatters.helpers.bool_QMARK_(value)));
 });
 devtools.formatters.helpers.abbreviated_QMARK_ = (function devtools$formatters$helpers$abbreviated_QMARK_(template){
-return cljs.core.some((function (p1__58458_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(devtools.formatters.helpers.pref(new cljs.core.Keyword(null,"more-marker","more-marker",-14717935)),p1__58458_SHARP_);
+return cljs.core.some((function (p1__60638_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(devtools.formatters.helpers.pref(new cljs.core.Keyword(null,"more-marker","more-marker",-14717935)),p1__60638_SHARP_);
 }),template);
 });
 devtools.formatters.helpers.abbreviate_long_string = (function devtools$formatters$helpers$abbreviate_long_string(string,marker,prefix_limit,postfix_limit){

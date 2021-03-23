@@ -1,1 +1,1 @@
-["^ ","~:type","~:register-plugin","~:id","browjure","~:payload",["^ ","^2","browjure","~:sablono",["^ ","~:hiccup-tag->factory-symbol",["^ ","~:hiccup-fn","~$org.browjure.base/make-component","~:hiccup-component","~$org.browjure.base/hiccup-component"]]]]
+["^ ","~:payload",["^ ","~:path",["~:menu","~:selected-view"],"~:value","basics"],"~:type","~:set-path-value"]
