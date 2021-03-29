@@ -17,6 +17,7 @@ SHADOW_ENV.setLoaded("module$node_modules$viewport_mercator_project$index.js");
 SHADOW_ENV.setLoaded("module$node_modules$resize_observer_polyfill$dist$ResizeObserver.js");
 SHADOW_ENV.setLoaded("module$node_modules$react_map_gl$dist$es5$utils$globals.js");
 SHADOW_ENV.setLoaded("module$node_modules$react_map_gl$dist$es5$utils$style_utils.js");
+SHADOW_ENV.setLoaded("module$node_modules$process$browser.js");
 SHADOW_ENV.setLoaded("module$node_modules$react_map_gl$dist$es5$mapbox$mapbox.js");
 SHADOW_ENV.setLoaded("module$node_modules$mapbox_gl$dist$mapbox_gl.js");
 SHADOW_ENV.setLoaded("module$node_modules$react_map_gl$dist$es5$utils$mapboxgl_browser.js");
@@ -728,6 +729,7 @@ SHADOW_ENV.setLoaded("module$node_modules$$loaders_DOT_gl$gis$dist$es5$lib$geojs
 SHADOW_ENV.setLoaded("module$node_modules$$loaders_DOT_gl$gis$dist$es5$lib$binary_to_geojson.js");
 SHADOW_ENV.setLoaded("module$node_modules$$loaders_DOT_gl$gis$dist$es5$lib$transform.js");
 SHADOW_ENV.setLoaded("module$node_modules$$loaders_DOT_gl$gis$dist$es5$index.js");
+SHADOW_ENV.setLoaded("module$node_modules$ieee754$index.js");
 SHADOW_ENV.setLoaded("module$node_modules$pbf$index.js");
 SHADOW_ENV.setLoaded("module$node_modules$$loaders_DOT_gl$mvt$dist$es5$lib$transform_to_local_range.js");
 SHADOW_ENV.setLoaded("module$node_modules$$loaders_DOT_gl$mvt$dist$es5$lib$parse_mvt.js");
