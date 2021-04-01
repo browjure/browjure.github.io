@@ -5,7 +5,7 @@ goog.provide('sci.impl.types');
  */
 sci.impl.types.IBox = function(){};
 
-var sci$impl$types$IBox$setVal$dyn_60998 = (function (_this,_v){
+var sci$impl$types$IBox$setVal$dyn_61226 = (function (_this,_v){
 var x__4428__auto__ = (((_this == null))?null:_this);
 var m__4429__auto__ = (sci.impl.types.setVal[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -23,11 +23,11 @@ sci.impl.types.setVal = (function sci$impl$types$setVal(_this,_v){
 if((((!((_this == null)))) && ((!((_this.sci$impl$types$IBox$setVal$arity$2 == null)))))){
 return _this.sci$impl$types$IBox$setVal$arity$2(_this,_v);
 } else {
-return sci$impl$types$IBox$setVal$dyn_60998(_this,_v);
+return sci$impl$types$IBox$setVal$dyn_61226(_this,_v);
 }
 });
 
-var sci$impl$types$IBox$getVal$dyn_61006 = (function (_this){
+var sci$impl$types$IBox$getVal$dyn_61230 = (function (_this){
 var x__4428__auto__ = (((_this == null))?null:_this);
 var m__4429__auto__ = (sci.impl.types.getVal[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -45,7 +45,7 @@ sci.impl.types.getVal = (function sci$impl$types$getVal(_this){
 if((((!((_this == null)))) && ((!((_this.sci$impl$types$IBox$getVal$arity$1 == null)))))){
 return _this.sci$impl$types$IBox$getVal$arity$1(_this);
 } else {
-return sci$impl$types$IBox$getVal$dyn_61006(_this);
+return sci$impl$types$IBox$getVal$dyn_61230(_this);
 }
 });
 
@@ -90,7 +90,7 @@ return (new sci.impl.types.EvalVar(v));
  */
 sci.impl.types.IReified = function(){};
 
-var sci$impl$types$IReified$getInterface$dyn_61012 = (function (_){
+var sci$impl$types$IReified$getInterface$dyn_61242 = (function (_){
 var x__4428__auto__ = (((_ == null))?null:_);
 var m__4429__auto__ = (sci.impl.types.getInterface[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -108,11 +108,11 @@ sci.impl.types.getInterface = (function sci$impl$types$getInterface(_){
 if((((!((_ == null)))) && ((!((_.sci$impl$types$IReified$getInterface$arity$1 == null)))))){
 return _.sci$impl$types$IReified$getInterface$arity$1(_);
 } else {
-return sci$impl$types$IReified$getInterface$dyn_61012(_);
+return sci$impl$types$IReified$getInterface$dyn_61242(_);
 }
 });
 
-var sci$impl$types$IReified$getMethods$dyn_61014 = (function (_){
+var sci$impl$types$IReified$getMethods$dyn_61248 = (function (_){
 var x__4428__auto__ = (((_ == null))?null:_);
 var m__4429__auto__ = (sci.impl.types.getMethods[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -130,7 +130,7 @@ sci.impl.types.getMethods = (function sci$impl$types$getMethods(_){
 if((((!((_ == null)))) && ((!((_.sci$impl$types$IReified$getMethods$arity$1 == null)))))){
 return _.sci$impl$types$IReified$getMethods$arity$1(_);
 } else {
-return sci$impl$types$IReified$getMethods$dyn_61014(_);
+return sci$impl$types$IReified$getMethods$dyn_61248(_);
 }
 });
 
@@ -178,14 +178,14 @@ return (new sci.impl.types.Reified(interface$,meths));
 
 sci.impl.types.type_impl = (function sci$impl$types$type_impl(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___61020 = arguments.length;
-var i__4737__auto___61021 = (0);
+var len__4736__auto___61257 = arguments.length;
+var i__4737__auto___61258 = (0);
 while(true){
-if((i__4737__auto___61021 < len__4736__auto___61020)){
-args__4742__auto__.push((arguments[i__4737__auto___61021]));
+if((i__4737__auto___61258 < len__4736__auto___61257)){
+args__4742__auto__.push((arguments[i__4737__auto___61258]));
 
-var G__61022 = (i__4737__auto___61021 + (1));
-i__4737__auto___61021 = G__61022;
+var G__61259 = (i__4737__auto___61258 + (1));
+i__4737__auto___61258 = G__61259;
 continue;
 } else {
 }
@@ -201,12 +201,12 @@ var or__4126__auto__ = (((x instanceof sci.impl.types.Reified))?new cljs.core.Ke
 if(cljs.core.truth_(or__4126__auto__)){
 return or__4126__auto__;
 } else {
-var or__4126__auto____$1 = (function (){var G__60975 = x;
-var G__60975__$1 = (((G__60975 == null))?null:cljs.core.meta(G__60975));
-if((G__60975__$1 == null)){
+var or__4126__auto____$1 = (function (){var G__61210 = x;
+var G__61210__$1 = (((G__61210 == null))?null:cljs.core.meta(G__61210));
+if((G__61210__$1 == null)){
 return null;
 } else {
-return new cljs.core.Keyword("sci.impl","type","sci.impl/type",1797552241).cljs$core$IFn$_invoke$arity$1(G__60975__$1);
+return new cljs.core.Keyword("sci.impl","type","sci.impl/type",1797552241).cljs$core$IFn$_invoke$arity$1(G__61210__$1);
 }
 })();
 if(cljs.core.truth_(or__4126__auto____$1)){
@@ -220,23 +220,23 @@ return cljs.core.type(x);
 (sci.impl.types.type_impl.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(sci.impl.types.type_impl.cljs$lang$applyTo = (function (seq60946){
-var G__60947 = cljs.core.first(seq60946);
-var seq60946__$1 = cljs.core.next(seq60946);
+(sci.impl.types.type_impl.cljs$lang$applyTo = (function (seq61188){
+var G__61189 = cljs.core.first(seq61188);
+var seq61188__$1 = cljs.core.next(seq61188);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__60947,seq60946__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__61189,seq61188__$1);
 }));
 
 sci.impl.types.instance_impl = (function sci$impl$types$instance_impl(clazz,x){
 if(cljs.core.truth_((((clazz instanceof cljs.core.Symbol))?(function (){var m = cljs.core.meta(clazz);
 return new cljs.core.Keyword("sci.impl","record","sci.impl/record",-1939193950).cljs$core$IFn$_invoke$arity$1(m);
 })():false))){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(clazz,(function (){var G__60989 = x;
-var G__60989__$1 = (((G__60989 == null))?null:cljs.core.meta(G__60989));
-if((G__60989__$1 == null)){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(clazz,(function (){var G__61220 = x;
+var G__61220__$1 = (((G__61220 == null))?null:cljs.core.meta(G__61220));
+if((G__61220__$1 == null)){
 return null;
 } else {
-return new cljs.core.Keyword("sci.impl","type","sci.impl/type",1797552241).cljs$core$IFn$_invoke$arity$1(G__60989__$1);
+return new cljs.core.Keyword("sci.impl","type","sci.impl/type",1797552241).cljs$core$IFn$_invoke$arity$1(G__61220__$1);
 }
 })());
 } else {
