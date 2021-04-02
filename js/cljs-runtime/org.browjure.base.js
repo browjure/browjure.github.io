@@ -21,31 +21,31 @@ return el.getAttribute("data-csrf-token");
 return null;
 }
 })();
-var packer_67783 = taoensso.sente.packers.transit.get_transit_packer.cljs$core$IFn$_invoke$arity$0();
-var map__67768_67784 = taoensso.sente.make_channel_socket_client_BANG_.cljs$core$IFn$_invoke$arity$variadic("/chsk",org.browjure.base._QMARK_csrf_token,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"ws","ws",86841443),new cljs.core.Keyword(null,"csrf-token","csrf-token",-1872302856),org.browjure.base._QMARK_csrf_token,new cljs.core.Keyword(null,"packer","packer",66077544),packer_67783], null)], 0));
-var map__67768_67785__$1 = (((((!((map__67768_67784 == null))))?(((((map__67768_67784.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__67768_67784.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__67768_67784):map__67768_67784);
-var chsk_67786 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__67768_67785__$1,new cljs.core.Keyword(null,"chsk","chsk",-863703081));
-var ch_recv_67787 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__67768_67785__$1,new cljs.core.Keyword(null,"ch-recv","ch-recv",-990916861));
-var send_fn_67788 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__67768_67785__$1,new cljs.core.Keyword(null,"send-fn","send-fn",351002041));
-var state_67789 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__67768_67785__$1,new cljs.core.Keyword(null,"state","state",-1988618099));
-org.browjure.base.chsk = chsk_67786;
+var packer_85200 = taoensso.sente.packers.transit.get_transit_packer.cljs$core$IFn$_invoke$arity$0();
+var map__85175_85201 = taoensso.sente.make_channel_socket_client_BANG_.cljs$core$IFn$_invoke$arity$variadic("/chsk",org.browjure.base._QMARK_csrf_token,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"ws","ws",86841443),new cljs.core.Keyword(null,"csrf-token","csrf-token",-1872302856),org.browjure.base._QMARK_csrf_token,new cljs.core.Keyword(null,"packer","packer",66077544),packer_85200], null)], 0));
+var map__85175_85202__$1 = (((((!((map__85175_85201 == null))))?(((((map__85175_85201.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__85175_85201.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__85175_85201):map__85175_85201);
+var chsk_85203 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__85175_85202__$1,new cljs.core.Keyword(null,"chsk","chsk",-863703081));
+var ch_recv_85204 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__85175_85202__$1,new cljs.core.Keyword(null,"ch-recv","ch-recv",-990916861));
+var send_fn_85205 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__85175_85202__$1,new cljs.core.Keyword(null,"send-fn","send-fn",351002041));
+var state_85206 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__85175_85202__$1,new cljs.core.Keyword(null,"state","state",-1988618099));
+org.browjure.base.chsk = chsk_85203;
 
-org.browjure.base.ch_chsk = ch_recv_67787;
+org.browjure.base.ch_chsk = ch_recv_85204;
 
-org.browjure.base.chsk_send_BANG_ = send_fn_67788;
+org.browjure.base.chsk_send_BANG_ = send_fn_85205;
 
-org.browjure.base.chsk_state = state_67789;
+org.browjure.base.chsk_state = state_85206;
 org.browjure.base.registry = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"hiccup-fn","hiccup-fn",223212621),org.browjure.base.make_component,new cljs.core.Keyword(null,"bindings","bindings",1271397192),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Symbol(null,"$","$",-1580747756,null),new cljs.core.Symbol("js","document","js/document",311343521,null),new cljs.core.Symbol(null,"use-combined-sub","use-combined-sub",764757410,null),new cljs.core.Symbol("js","window","js/window",-1929916804,null),new cljs.core.Symbol(null,"window-resolve","window-resolve",346312639,null),new cljs.core.Symbol(null,"set-path-value","set-path-value",424354368,null),new cljs.core.Symbol(null,"use-path-sub","use-path-sub",-792752499,null),new cljs.core.Symbol(null,"gset","gset",558136426,null),new cljs.core.Symbol("js","console.log","js/console.log",-2005248266,null),new cljs.core.Symbol("hx.react","f","hx.react/f",-1228046660,null),new cljs.core.Symbol(null,"gget","gget",-757535927,null)],[helix.core.$,document,org.browjure.state.use_combined_sub,window,org.browjure.state.window_resolve,org.browjure.state.set_path_value,org.browjure.state.use_path_sub,goog.object.set,console.log,hx.react.f,goog.object.get])], null));
 org.browjure.base.make_component = (function org$browjure$base$make_component(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___67790 = arguments.length;
-var i__4737__auto___67791 = (0);
+var len__4736__auto___85211 = arguments.length;
+var i__4737__auto___85212 = (0);
 while(true){
-if((i__4737__auto___67791 < len__4736__auto___67790)){
-args__4742__auto__.push((arguments[i__4737__auto___67791]));
+if((i__4737__auto___85212 < len__4736__auto___85211)){
+args__4742__auto__.push((arguments[i__4737__auto___85212]));
 
-var G__67792 = (i__4737__auto___67791 + (1));
-i__4737__auto___67791 = G__67792;
+var G__85213 = (i__4737__auto___85212 + (1));
+i__4737__auto___85212 = G__85213;
 continue;
 } else {
 }
@@ -60,22 +60,18 @@ return org.browjure.base.make_component.cljs$core$IFn$_invoke$arity$variadic(arg
 console.log(argss,cljs.core.second(argss));
 
 var compiled_component_fn = org.browjure.state.compile(cljs.core.first(argss),new cljs.core.Keyword(null,"bindings","bindings",1271397192).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(org.browjure.base.registry)));
-console.log("compiled",compiled_component_fn);
-
 return module$node_modules$react$index.createElement(compiled_component_fn,({}),[]);
 }));
 
 (org.browjure.base.make_component.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(org.browjure.base.make_component.cljs$lang$applyTo = (function (seq67770){
+(org.browjure.base.make_component.cljs$lang$applyTo = (function (seq85177){
 var self__4724__auto__ = this;
-return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq67770));
+return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq85177));
 }));
 
 org.browjure.base.browjure_components__GT_react_element = (function org$browjure$base$browjure_components__GT_react_element(form){
-console.log("form ",form);
-
 if(cljs.core.truth_(((cljs.core.vector_QMARK_(form))?cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(org.browjure.base.registry),cljs.core.first(form)):false))){
 var component = org.browjure.state.window_resolve(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(org.browjure.base.registry),cljs.core.first(form)));
 console.log(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(org.browjure.base.registry),cljs.core.first(form)));
@@ -97,21 +93,21 @@ return form;
 }
 });
 org.browjure.base.handle_command = (function org$browjure$base$handle_command(command){
-var G__67771 = new cljs.core.Keyword(null,"type","type",1174270348).cljs$core$IFn$_invoke$arity$1(command);
-var G__67771__$1 = (((G__67771 instanceof cljs.core.Keyword))?G__67771.fqn:null);
-switch (G__67771__$1) {
+var G__85182 = new cljs.core.Keyword(null,"type","type",1174270348).cljs$core$IFn$_invoke$arity$1(command);
+var G__85182__$1 = (((G__85182 instanceof cljs.core.Keyword))?G__85182.fqn:null);
+switch (G__85182__$1) {
 case "clear-cache":
 return window.location.reload(true);
 
 break;
 case "register-plugin":
 if(cljs.core.truth_(new cljs.core.Keyword(null,"base-path","base-path",495760020).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"payload","payload",-383036092).cljs$core$IFn$_invoke$arity$1(command)))){
-document.head.append((function (){var G__67772 = document.createElement("script");
-G__67772.setAttribute("type","text/javascript");
+document.head.append((function (){var G__85183 = document.createElement("script");
+G__85183.setAttribute("type","text/javascript");
 
-G__67772.setAttribute("src",new cljs.core.Keyword(null,"base-path","base-path",495760020).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"payload","payload",-383036092).cljs$core$IFn$_invoke$arity$1(command)));
+G__85183.setAttribute("src",new cljs.core.Keyword(null,"base-path","base-path",495760020).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"payload","payload",-383036092).cljs$core$IFn$_invoke$arity$1(command)));
 
-return G__67772;
+return G__85183;
 })());
 } else {
 }
@@ -146,18 +142,18 @@ default:
 var id = cljs.core.name(new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(command));
 console.log("else",command);
 
-var fexpr__67773 = (((((window["org"])["browjure"])[clojure.string.replace(id,"-","_")])["base"])["handler"]);
-return (fexpr__67773.cljs$core$IFn$_invoke$arity$1 ? fexpr__67773.cljs$core$IFn$_invoke$arity$1(command) : fexpr__67773.call(null,command));
+var fexpr__85184 = (((((window["org"])["browjure"])[clojure.string.replace(id,"-","_")])["base"])["handler"]);
+return (fexpr__85184.cljs$core$IFn$_invoke$arity$1 ? fexpr__85184.cljs$core$IFn$_invoke$arity$1(command) : fexpr__85184.call(null,command));
 
 }
 });
 org.browjure.base.handler = (function org$browjure$base$handler(msg){
 if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("chsk","recv","chsk/recv",561097091),cljs.core.first(new cljs.core.Keyword(null,"event","event",301435442).cljs$core$IFn$_invoke$arity$1(msg)))) && (cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("chsk","ws-ping","chsk/ws-ping",191675304),cljs.core.first(cljs.core.second(new cljs.core.Keyword(null,"event","event",301435442).cljs$core$IFn$_invoke$arity$1(msg))))))){
-var vec__67774 = new cljs.core.Keyword(null,"event","event",301435442).cljs$core$IFn$_invoke$arity$1(msg);
-var sente_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__67774,(0),null);
-var vec__67777 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__67774,(1),null);
-var browjure_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__67777,(0),null);
-var lib_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__67777,(1),null);
+var vec__85189 = new cljs.core.Keyword(null,"event","event",301435442).cljs$core$IFn$_invoke$arity$1(msg);
+var sente_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__85189,(0),null);
+var vec__85192 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__85189,(1),null);
+var browjure_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__85192,(0),null);
+var lib_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__85192,(1),null);
 console.log(cljs.core.deref(org.browjure.base.registry));
 
 console.log("event type",cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"view-sablono","view-sablono",1410763305),new cljs.core.Keyword(null,"type","type",1174270348).cljs$core$IFn$_invoke$arity$1(lib_event)),new cljs.core.Keyword(null,"type","type",1174270348).cljs$core$IFn$_invoke$arity$1(lib_event),lib_event);
@@ -182,8 +178,8 @@ return fetch("commands.json").then((function (response){
 return response.json().then((function (number_of_commands){
 return cljs.core.doall.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (i){
 return setTimeout((function (){
-return fetch(["command-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i),".json"].join('')).then((function (p1__67780_SHARP_){
-return p1__67780_SHARP_.text().then((function (command_str){
+return fetch(["command-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i),".json"].join('')).then((function (p1__85196_SHARP_){
+return p1__85196_SHARP_.text().then((function (command_str){
 console.log("handling command: ",i);
 
 return org.browjure.base.handle_command(cognitect.transit.read(cognitect.transit.reader.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"json","json",1279968570)),command_str));
@@ -194,16 +190,16 @@ return org.browjure.base.handle_command(cognitect.transit.read(cognitect.transit
 }));
 }));
 });
-var log_67794 = window.console.log;
+var log_85264 = window.console.log;
 (window.console.log = (function (){
-var G__67781_67795 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("browjure","log","browjure/log",-877135194),cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([arguments], 0))], null);
-(org.browjure.base.chsk_send_BANG_.cljs$core$IFn$_invoke$arity$1 ? org.browjure.base.chsk_send_BANG_.cljs$core$IFn$_invoke$arity$1(G__67781_67795) : org.browjure.base.chsk_send_BANG_.call(null,G__67781_67795));
+var G__85198_85266 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("browjure","log","browjure/log",-877135194),cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([arguments], 0))], null);
+(org.browjure.base.chsk_send_BANG_.cljs$core$IFn$_invoke$arity$1 ? org.browjure.base.chsk_send_BANG_.cljs$core$IFn$_invoke$arity$1(G__85198_85266) : org.browjure.base.chsk_send_BANG_.call(null,G__85198_85266));
 
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(log_67794,arguments);
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(log_85264,arguments);
 }));
 (window.onerror = (function (){
-var G__67782_67796 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("browjure","error","browjure/error",-1401241814),cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([arguments], 0))], null);
-(org.browjure.base.chsk_send_BANG_.cljs$core$IFn$_invoke$arity$1 ? org.browjure.base.chsk_send_BANG_.cljs$core$IFn$_invoke$arity$1(G__67782_67796) : org.browjure.base.chsk_send_BANG_.call(null,G__67782_67796));
+var G__85199_85273 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("browjure","error","browjure/error",-1401241814),cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([arguments], 0))], null);
+(org.browjure.base.chsk_send_BANG_.cljs$core$IFn$_invoke$arity$1 ? org.browjure.base.chsk_send_BANG_.cljs$core$IFn$_invoke$arity$1(G__85199_85273) : org.browjure.base.chsk_send_BANG_.call(null,G__85199_85273));
 
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(window.console.error,arguments);
 }));
