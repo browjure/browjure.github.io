@@ -346,7 +346,6 @@ SHADOW_ENV.setLoaded("com.cognitect.transit.impl.writer.js");
 SHADOW_ENV.setLoaded("com.cognitect.transit.js");
 SHADOW_ENV.setLoaded("cognitect.transit.js");
 SHADOW_ENV.setLoaded("taoensso.sente.packers.transit.js");
-SHADOW_ENV.setLoaded("org.browjure.base.js");
 SHADOW_ENV.setLoaded("module$node_modules$scheduler$cjs$scheduler_production_min.js");
 SHADOW_ENV.setLoaded("module$node_modules$scheduler$cjs$scheduler_development.js");
 SHADOW_ENV.setLoaded("module$node_modules$scheduler$index.js");
@@ -356,6 +355,7 @@ SHADOW_ENV.setLoaded("module$node_modules$scheduler$cjs$scheduler_tracing_develo
 SHADOW_ENV.setLoaded("module$node_modules$scheduler$tracing.js");
 SHADOW_ENV.setLoaded("module$node_modules$react_dom$cjs$react_dom_development.js");
 SHADOW_ENV.setLoaded("module$node_modules$react_dom$index.js");
+SHADOW_ENV.setLoaded("org.browjure.base.js");
 SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$typeof.js");
 SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$interopRequireWildcard.js");
 SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$interopRequireDefault.js");

@@ -5,7 +5,7 @@ goog.provide('sci.impl.types');
  */
 sci.impl.types.IBox = function(){};
 
-var sci$impl$types$IBox$setVal$dyn_74406 = (function (_this,_v){
+var sci$impl$types$IBox$setVal$dyn_118528 = (function (_this,_v){
 var x__4428__auto__ = (((_this == null))?null:_this);
 var m__4429__auto__ = (sci.impl.types.setVal[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -23,11 +23,11 @@ sci.impl.types.setVal = (function sci$impl$types$setVal(_this,_v){
 if((((!((_this == null)))) && ((!((_this.sci$impl$types$IBox$setVal$arity$2 == null)))))){
 return _this.sci$impl$types$IBox$setVal$arity$2(_this,_v);
 } else {
-return sci$impl$types$IBox$setVal$dyn_74406(_this,_v);
+return sci$impl$types$IBox$setVal$dyn_118528(_this,_v);
 }
 });
 
-var sci$impl$types$IBox$getVal$dyn_74411 = (function (_this){
+var sci$impl$types$IBox$getVal$dyn_118531 = (function (_this){
 var x__4428__auto__ = (((_this == null))?null:_this);
 var m__4429__auto__ = (sci.impl.types.getVal[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -45,7 +45,7 @@ sci.impl.types.getVal = (function sci$impl$types$getVal(_this){
 if((((!((_this == null)))) && ((!((_this.sci$impl$types$IBox$getVal$arity$1 == null)))))){
 return _this.sci$impl$types$IBox$getVal$arity$1(_this);
 } else {
-return sci$impl$types$IBox$getVal$dyn_74411(_this);
+return sci$impl$types$IBox$getVal$dyn_118531(_this);
 }
 });
 
@@ -90,7 +90,7 @@ return (new sci.impl.types.EvalVar(v));
  */
 sci.impl.types.IReified = function(){};
 
-var sci$impl$types$IReified$getInterface$dyn_74416 = (function (_){
+var sci$impl$types$IReified$getInterface$dyn_118562 = (function (_){
 var x__4428__auto__ = (((_ == null))?null:_);
 var m__4429__auto__ = (sci.impl.types.getInterface[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -108,11 +108,11 @@ sci.impl.types.getInterface = (function sci$impl$types$getInterface(_){
 if((((!((_ == null)))) && ((!((_.sci$impl$types$IReified$getInterface$arity$1 == null)))))){
 return _.sci$impl$types$IReified$getInterface$arity$1(_);
 } else {
-return sci$impl$types$IReified$getInterface$dyn_74416(_);
+return sci$impl$types$IReified$getInterface$dyn_118562(_);
 }
 });
 
-var sci$impl$types$IReified$getMethods$dyn_74418 = (function (_){
+var sci$impl$types$IReified$getMethods$dyn_118568 = (function (_){
 var x__4428__auto__ = (((_ == null))?null:_);
 var m__4429__auto__ = (sci.impl.types.getMethods[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -130,7 +130,7 @@ sci.impl.types.getMethods = (function sci$impl$types$getMethods(_){
 if((((!((_ == null)))) && ((!((_.sci$impl$types$IReified$getMethods$arity$1 == null)))))){
 return _.sci$impl$types$IReified$getMethods$arity$1(_);
 } else {
-return sci$impl$types$IReified$getMethods$dyn_74418(_);
+return sci$impl$types$IReified$getMethods$dyn_118568(_);
 }
 });
 
@@ -178,14 +178,14 @@ return (new sci.impl.types.Reified(interface$,meths));
 
 sci.impl.types.type_impl = (function sci$impl$types$type_impl(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___74424 = arguments.length;
-var i__4737__auto___74425 = (0);
+var len__4736__auto___118575 = arguments.length;
+var i__4737__auto___118576 = (0);
 while(true){
-if((i__4737__auto___74425 < len__4736__auto___74424)){
-args__4742__auto__.push((arguments[i__4737__auto___74425]));
+if((i__4737__auto___118576 < len__4736__auto___118575)){
+args__4742__auto__.push((arguments[i__4737__auto___118576]));
 
-var G__74426 = (i__4737__auto___74425 + (1));
-i__4737__auto___74425 = G__74426;
+var G__118579 = (i__4737__auto___118576 + (1));
+i__4737__auto___118576 = G__118579;
 continue;
 } else {
 }
@@ -201,12 +201,12 @@ var or__4126__auto__ = (((x instanceof sci.impl.types.Reified))?new cljs.core.Ke
 if(cljs.core.truth_(or__4126__auto__)){
 return or__4126__auto__;
 } else {
-var or__4126__auto____$1 = (function (){var G__74391 = x;
-var G__74391__$1 = (((G__74391 == null))?null:cljs.core.meta(G__74391));
-if((G__74391__$1 == null)){
+var or__4126__auto____$1 = (function (){var G__118516 = x;
+var G__118516__$1 = (((G__118516 == null))?null:cljs.core.meta(G__118516));
+if((G__118516__$1 == null)){
 return null;
 } else {
-return new cljs.core.Keyword("sci.impl","type","sci.impl/type",1797552241).cljs$core$IFn$_invoke$arity$1(G__74391__$1);
+return new cljs.core.Keyword("sci.impl","type","sci.impl/type",1797552241).cljs$core$IFn$_invoke$arity$1(G__118516__$1);
 }
 })();
 if(cljs.core.truth_(or__4126__auto____$1)){
@@ -220,23 +220,23 @@ return cljs.core.type(x);
 (sci.impl.types.type_impl.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(sci.impl.types.type_impl.cljs$lang$applyTo = (function (seq74374){
-var G__74375 = cljs.core.first(seq74374);
-var seq74374__$1 = cljs.core.next(seq74374);
+(sci.impl.types.type_impl.cljs$lang$applyTo = (function (seq118501){
+var G__118503 = cljs.core.first(seq118501);
+var seq118501__$1 = cljs.core.next(seq118501);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__74375,seq74374__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__118503,seq118501__$1);
 }));
 
 sci.impl.types.instance_impl = (function sci$impl$types$instance_impl(clazz,x){
 if(cljs.core.truth_((((clazz instanceof cljs.core.Symbol))?(function (){var m = cljs.core.meta(clazz);
 return new cljs.core.Keyword("sci.impl","record","sci.impl/record",-1939193950).cljs$core$IFn$_invoke$arity$1(m);
 })():false))){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(clazz,(function (){var G__74404 = x;
-var G__74404__$1 = (((G__74404 == null))?null:cljs.core.meta(G__74404));
-if((G__74404__$1 == null)){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(clazz,(function (){var G__118521 = x;
+var G__118521__$1 = (((G__118521 == null))?null:cljs.core.meta(G__118521));
+if((G__118521__$1 == null)){
 return null;
 } else {
-return new cljs.core.Keyword("sci.impl","type","sci.impl/type",1797552241).cljs$core$IFn$_invoke$arity$1(G__74404__$1);
+return new cljs.core.Keyword("sci.impl","type","sci.impl/type",1797552241).cljs$core$IFn$_invoke$arity$1(G__118521__$1);
 }
 })());
 } else {
