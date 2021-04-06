@@ -23,17 +23,17 @@ throw (new Error(["Could not find instance method: ",cljs.core.str.cljs$core$IFn
 }
 }
 });
-sci.impl.interop.get_static_field = (function sci$impl$interop$get_static_field(p__120071){
-var vec__120072 = p__120071;
-var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__120072,(0),null);
-var field_name_sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__120072,(1),null);
+sci.impl.interop.get_static_field = (function sci$impl$interop$get_static_field(p__72028){
+var vec__72029 = p__72028;
+var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72029,(0),null);
+var field_name_sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72029,(1),null);
 return goog.object.get(class$,field_name_sym);
 });
 sci.impl.interop.invoke_js_constructor = (function sci$impl$interop$invoke_js_constructor(constructor$,args){
 var ctor = Function.prototype.bind.apply(constructor$);
 var args__$1 = sci.impl.interop.js_object_array(args);
-var G__120081 = ((args__$1).length);
-switch (G__120081) {
+var G__72046 = ((args__$1).length);
+switch (G__72046) {
 case (0):
 return (new ctor());
 
@@ -74,19 +74,19 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Constructors with more th
 sci.impl.interop.invoke_constructor = (function sci$impl$interop$invoke_constructor(constructor$,args){
 return sci.impl.interop.invoke_js_constructor(constructor$,args);
 });
-sci.impl.interop.invoke_static_method = (function sci$impl$interop$invoke_static_method(p__120105,args){
-var vec__120106 = p__120105;
-var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__120106,(0),null);
-var method_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__120106,(1),null);
+sci.impl.interop.invoke_static_method = (function sci$impl$interop$invoke_static_method(p__72070,args){
+var vec__72071 = p__72070;
+var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72071,(0),null);
+var method_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72071,(1),null);
 var temp__5751__auto__ = goog.object.get(class$,method_name);
 if(cljs.core.truth_(temp__5751__auto__)){
 var method = temp__5751__auto__;
 return method.apply(class$,sci.impl.interop.js_object_array(args));
 } else {
 var method_name__$1 = cljs.core.str.cljs$core$IFn$_invoke$arity$1(method_name);
-var vec__120114 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(method_name__$1,/\./);
-var field = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__120114,(0),null);
-var sub_method_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__120114,(1),null);
+var vec__72083 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(method_name__$1,/\./);
+var field = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72083,(0),null);
+var sub_method_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__72083,(1),null);
 if(cljs.core.truth_(sub_method_name)){
 return sci.impl.interop.invoke_instance_method(sci.impl.interop.get_static_field(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [class$,field], null)),null,sub_method_name,args);
 } else {
@@ -99,11 +99,11 @@ throw (new Error(["Could not find static method ",method_name__$1].join('')));
 }
 }
 });
-sci.impl.interop.fully_qualify_class = (function sci$impl$interop$fully_qualify_class(p__120123,sym){
-var map__120124 = p__120123;
-var map__120124__$1 = (((((!((map__120124 == null))))?(((((map__120124.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__120124.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__120124):map__120124);
-var env = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__120124__$1,new cljs.core.Keyword(null,"env","env",-1815813235));
-var class__GT_opts = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__120124__$1,new cljs.core.Keyword(null,"class->opts","class->opts",2061906477));
+sci.impl.interop.fully_qualify_class = (function sci$impl$interop$fully_qualify_class(p__72091,sym){
+var map__72093 = p__72091;
+var map__72093__$1 = (((((!((map__72093 == null))))?(((((map__72093.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__72093.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__72093):map__72093);
+var env = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__72093__$1,new cljs.core.Keyword(null,"env","env",-1815813235));
+var class__GT_opts = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__72093__$1,new cljs.core.Keyword(null,"class->opts","class->opts",2061906477));
 var or__4126__auto__ = (function (){var temp__5751__auto__ = cljs.core.namespace(sym);
 if(cljs.core.truth_(temp__5751__auto__)){
 var ns_STAR_ = temp__5751__auto__;
@@ -137,11 +137,11 @@ return cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(env__$1,new cljs.core.Pers
 }
 }
 });
-sci.impl.interop.resolve_class_opts = (function sci$impl$interop$resolve_class_opts(p__120129,sym){
-var map__120130 = p__120129;
-var map__120130__$1 = (((((!((map__120130 == null))))?(((((map__120130.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__120130.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__120130):map__120130);
-var env = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__120130__$1,new cljs.core.Keyword(null,"env","env",-1815813235));
-var class__GT_opts = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__120130__$1,new cljs.core.Keyword(null,"class->opts","class->opts",2061906477));
+sci.impl.interop.resolve_class_opts = (function sci$impl$interop$resolve_class_opts(p__72118,sym){
+var map__72119 = p__72118;
+var map__72119__$1 = (((((!((map__72119 == null))))?(((((map__72119.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__72119.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__72119):map__72119);
+var env = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__72119__$1,new cljs.core.Keyword(null,"env","env",-1815813235));
+var class__GT_opts = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__72119__$1,new cljs.core.Keyword(null,"class->opts","class->opts",2061906477));
 var class_opts = (function (){var or__4126__auto__ = (function (){var temp__5751__auto__ = cljs.core.namespace(sym);
 if(cljs.core.truth_(temp__5751__auto__)){
 var ns_STAR_ = temp__5751__auto__;

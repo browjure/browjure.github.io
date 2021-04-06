@@ -32,15 +32,15 @@ this.reader_opts = reader_opts;
 (taoensso.sente.packers.transit.TransitPacker.prototype.taoensso$sente$interfaces$IPacker$pack$arity$2 = (function (_,x){
 var self__ = this;
 var ___$1 = this;
-var fexpr__127958 = taoensso.sente.packers.transit.get_transit_writer_fn(self__.transit_fmt,self__.writer_opts);
-return (fexpr__127958.cljs$core$IFn$_invoke$arity$1 ? fexpr__127958.cljs$core$IFn$_invoke$arity$1(x) : fexpr__127958.call(null,x));
+var fexpr__80070 = taoensso.sente.packers.transit.get_transit_writer_fn(self__.transit_fmt,self__.writer_opts);
+return (fexpr__80070.cljs$core$IFn$_invoke$arity$1 ? fexpr__80070.cljs$core$IFn$_invoke$arity$1(x) : fexpr__80070.call(null,x));
 }));
 
 (taoensso.sente.packers.transit.TransitPacker.prototype.taoensso$sente$interfaces$IPacker$unpack$arity$2 = (function (_,s){
 var self__ = this;
 var ___$1 = this;
-var fexpr__127959 = taoensso.sente.packers.transit.get_transit_reader_fn(self__.transit_fmt,self__.reader_opts);
-return (fexpr__127959.cljs$core$IFn$_invoke$arity$1 ? fexpr__127959.cljs$core$IFn$_invoke$arity$1(s) : fexpr__127959.call(null,s));
+var fexpr__80074 = taoensso.sente.packers.transit.get_transit_reader_fn(self__.transit_fmt,self__.reader_opts);
+return (fexpr__80074.cljs$core$IFn$_invoke$arity$1 ? fexpr__80074.cljs$core$IFn$_invoke$arity$1(s) : fexpr__80074.call(null,s));
 }));
 
 (taoensso.sente.packers.transit.TransitPacker.getBasis = (function (){
@@ -66,8 +66,8 @@ return (new taoensso.sente.packers.transit.TransitPacker(transit_fmt,writer_opts
  * Returns a new TransitPacker
  */
 taoensso.sente.packers.transit.get_transit_packer = (function taoensso$sente$packers$transit$get_transit_packer(var_args){
-var G__127965 = arguments.length;
-switch (G__127965) {
+var G__80078 = arguments.length;
+switch (G__80078) {
 case 0:
 return taoensso.sente.packers.transit.get_transit_packer.cljs$core$IFn$_invoke$arity$0();
 
@@ -95,62 +95,62 @@ return taoensso.sente.packers.transit.get_transit_packer.cljs$core$IFn$_invoke$a
 }));
 
 (taoensso.sente.packers.transit.get_transit_packer.cljs$core$IFn$_invoke$arity$3 = (function (transit_fmt,writer_opts,reader_opts){
-var e_127972 = (function (){try{if((function (x){
-return cljs.core.contains_QMARK_((function (){var G__127967 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"json-verbose","json-verbose",-542533531),null,new cljs.core.Keyword(null,"json","json",1279968570),null], null), null);
-return (taoensso.truss.impl.set_STAR_.cljs$core$IFn$_invoke$arity$1 ? taoensso.truss.impl.set_STAR_.cljs$core$IFn$_invoke$arity$1(G__127967) : taoensso.truss.impl.set_STAR_.call(null,G__127967));
+var e_80109 = (function (){try{if((function (x){
+return cljs.core.contains_QMARK_((function (){var G__80088 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"json-verbose","json-verbose",-542533531),null,new cljs.core.Keyword(null,"json","json",1279968570),null], null), null);
+return (taoensso.truss.impl.set_STAR_.cljs$core$IFn$_invoke$arity$1 ? taoensso.truss.impl.set_STAR_.cljs$core$IFn$_invoke$arity$1(G__80088) : taoensso.truss.impl.set_STAR_.call(null,G__80088));
 })(),x);
 })(transit_fmt)){
 return null;
 } else {
 return taoensso.truss.impl._dummy_error;
 }
-}catch (e127966){if((e127966 instanceof Error)){
-var e_127972 = e127966;
-return e_127972;
+}catch (e80083){if((e80083 instanceof Error)){
+var e_80109 = e80083;
+return e_80109;
 } else {
-throw e127966;
+throw e80083;
 
 }
 }})();
-if((e_127972 == null)){
+if((e_80109 == null)){
 } else {
-taoensso.truss.impl._invar_violation_BANG_(true,"taoensso.sente.packers.transit",102,"([:el #{:json-verbose :json}] transit-fmt)",transit_fmt,e_127972,null);
+taoensso.truss.impl._invar_violation_BANG_(true,"taoensso.sente.packers.transit",102,"([:el #{:json-verbose :json}] transit-fmt)",transit_fmt,e_80109,null);
 }
 
-var e_127973 = (function (){try{if(cljs.core.map_QMARK_(writer_opts)){
+var e_80111 = (function (){try{if(cljs.core.map_QMARK_(writer_opts)){
 return null;
 } else {
 return taoensso.truss.impl._dummy_error;
 }
-}catch (e127968){if((e127968 instanceof Error)){
-var e_127973 = e127968;
-return e_127973;
+}catch (e80091){if((e80091 instanceof Error)){
+var e_80111 = e80091;
+return e_80111;
 } else {
-throw e127968;
+throw e80091;
 
 }
 }})();
-if((e_127973 == null)){
+if((e_80111 == null)){
 } else {
-taoensso.truss.impl._invar_violation_BANG_(true,"taoensso.sente.packers.transit",103,"(map? writer-opts)",writer_opts,e_127973,null);
+taoensso.truss.impl._invar_violation_BANG_(true,"taoensso.sente.packers.transit",103,"(map? writer-opts)",writer_opts,e_80111,null);
 }
 
-var e_127974 = (function (){try{if(cljs.core.map_QMARK_(reader_opts)){
+var e_80113 = (function (){try{if(cljs.core.map_QMARK_(reader_opts)){
 return null;
 } else {
 return taoensso.truss.impl._dummy_error;
 }
-}catch (e127969){if((e127969 instanceof Error)){
-var e_127974 = e127969;
-return e_127974;
+}catch (e80092){if((e80092 instanceof Error)){
+var e_80113 = e80092;
+return e_80113;
 } else {
-throw e127969;
+throw e80092;
 
 }
 }})();
-if((e_127974 == null)){
+if((e_80113 == null)){
 } else {
-taoensso.truss.impl._invar_violation_BANG_(true,"taoensso.sente.packers.transit",103,"(map? reader-opts)",reader_opts,e_127974,null);
+taoensso.truss.impl._invar_violation_BANG_(true,"taoensso.sente.packers.transit",103,"(map? reader-opts)",reader_opts,e_80113,null);
 }
 
 

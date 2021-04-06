@@ -5,7 +5,7 @@ goog.provide('hx.hiccup');
  */
 hx.hiccup.IElement = function(){};
 
-var hx$hiccup$IElement$_as_element$dyn_123095 = (function (el,config){
+var hx$hiccup$IElement$_as_element$dyn_75040 = (function (el,config){
 var x__4428__auto__ = (((el == null))?null:el);
 var m__4429__auto__ = (hx.hiccup._as_element[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -26,7 +26,7 @@ hx.hiccup._as_element = (function hx$hiccup$_as_element(el,config){
 if((((!((el == null)))) && ((!((el.hx$hiccup$IElement$_as_element$arity$2 == null)))))){
 return el.hx$hiccup$IElement$_as_element$arity$2(el,config);
 } else {
-return hx$hiccup$IElement$_as_element$dyn_123095(el,config);
+return hx$hiccup$IElement$_as_element$dyn_75040(el,config);
 }
 });
 
@@ -58,14 +58,14 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(el,args);
 var hx$hiccup$parse_tag_$_VarEl = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__123097__i = 0, G__123097__a = new Array(arguments.length -  0);
-while (G__123097__i < G__123097__a.length) {G__123097__a[G__123097__i] = arguments[G__123097__i + 0]; ++G__123097__i;}
-  args = new cljs.core.IndexedSeq(G__123097__a,0,null);
+var G__75042__i = 0, G__75042__a = new Array(arguments.length -  0);
+while (G__75042__i < G__75042__a.length) {G__75042__a[G__75042__i] = arguments[G__75042__i + 0]; ++G__75042__i;}
+  args = new cljs.core.IndexedSeq(G__75042__a,0,null);
 } 
 return hx$hiccup$parse_tag_$_VarEl__delegate.call(this,args);};
 hx$hiccup$parse_tag_$_VarEl.cljs$lang$maxFixedArity = 0;
-hx$hiccup$parse_tag_$_VarEl.cljs$lang$applyTo = (function (arglist__123098){
-var args = cljs.core.seq(arglist__123098);
+hx$hiccup$parse_tag_$_VarEl.cljs$lang$applyTo = (function (arglist__75044){
+var args = cljs.core.seq(arglist__75044);
 return hx$hiccup$parse_tag_$_VarEl__delegate(args);
 });
 hx$hiccup$parse_tag_$_VarEl.cljs$core$IFn$_invoke$arity$variadic = hx$hiccup$parse_tag_$_VarEl__delegate;
@@ -79,8 +79,8 @@ return el;
 }
 });
 hx.hiccup.make_element = (function hx$hiccup$make_element(config,el,args){
-var fexpr__123073 = new cljs.core.Keyword(null,"create-element","create-element",193243064).cljs$core$IFn$_invoke$arity$1(config);
-return (fexpr__123073.cljs$core$IFn$_invoke$arity$3 ? fexpr__123073.cljs$core$IFn$_invoke$arity$3(config,el,args) : fexpr__123073.call(null,config,el,args));
+var fexpr__75031 = new cljs.core.Keyword(null,"create-element","create-element",193243064).cljs$core$IFn$_invoke$arity$1(config);
+return (fexpr__75031.cljs$core$IFn$_invoke$arity$3 ? fexpr__75031.cljs$core$IFn$_invoke$arity$3(config,el,args) : fexpr__75031.call(null,config,el,args));
 });
 hx.hiccup.parse = (function hx$hiccup$parse(config,hiccup){
 return hx.hiccup.make_element(config,hx.hiccup.parse_tag(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(hiccup,(0))),cljs.core.rest(hiccup));
@@ -117,24 +117,24 @@ return hx.hiccup.make_element(config,hx.hiccup.parse_tag(cljs.core.nth.cljs$core
 
 (cljs.core.LazySeq.prototype.hx$hiccup$IElement$_as_element$arity$2 = (function (a,config){
 var a__$1 = this;
-return hx.hiccup.make_element(config,new cljs.core.Keyword(null,"fragment","fragment",826775688).cljs$core$IFn$_invoke$arity$1(config),cljs.core.cons(null,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__123079_SHARP_){
-return hx.hiccup._as_element(p1__123079_SHARP_,config);
+return hx.hiccup.make_element(config,new cljs.core.Keyword(null,"fragment","fragment",826775688).cljs$core$IFn$_invoke$arity$1(config),cljs.core.cons(null,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__75035_SHARP_){
+return hx.hiccup._as_element(p1__75035_SHARP_,config);
 }),a__$1)));
 }));
 
 goog.object.set(hx.hiccup.IElement,"array",true);
 
 goog.object.set(hx.hiccup._as_element,"array",(function (a,config){
-return hx.hiccup.make_element(config,new cljs.core.Keyword(null,"fragment","fragment",826775688).cljs$core$IFn$_invoke$arity$1(config),cljs.core.cons(null,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__123080_SHARP_){
-return hx.hiccup._as_element(p1__123080_SHARP_,config);
+return hx.hiccup.make_element(config,new cljs.core.Keyword(null,"fragment","fragment",826775688).cljs$core$IFn$_invoke$arity$1(config),cljs.core.cons(null,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__75036_SHARP_){
+return hx.hiccup._as_element(p1__75036_SHARP_,config);
 }),a)));
 }));
 
 goog.object.set(hx.hiccup.IElement,"_",true);
 
 goog.object.set(hx.hiccup._as_element,"_",(function (el,config){
-if(cljs.core.truth_((function (){var fexpr__123092 = new cljs.core.Keyword(null,"is-element?","is-element?",-1231778016).cljs$core$IFn$_invoke$arity$1(config);
-return (fexpr__123092.cljs$core$IFn$_invoke$arity$1 ? fexpr__123092.cljs$core$IFn$_invoke$arity$1(el) : fexpr__123092.call(null,el));
+if(cljs.core.truth_((function (){var fexpr__75039 = new cljs.core.Keyword(null,"is-element?","is-element?",-1231778016).cljs$core$IFn$_invoke$arity$1(config);
+return (fexpr__75039.cljs$core$IFn$_invoke$arity$1 ? fexpr__75039.cljs$core$IFn$_invoke$arity$1(el) : fexpr__75039.call(null,el));
 })())){
 return el;
 } else {
