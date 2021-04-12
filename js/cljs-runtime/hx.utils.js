@@ -17,9 +17,9 @@ return m;
 } else {
 var k = cljs.core.first(ks);
 var v = goog.object.get(props,k);
-var G__75017 = cljs.core.next(ks);
-var G__75018 = (function (){var G__74975 = k;
-switch (G__74975) {
+var G__76433 = cljs.core.next(ks);
+var G__76434 = (function (){var G__76361 = k;
+switch (G__76361) {
 case "class":
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(m,new cljs.core.Keyword(null,"className","className",-1983287057),v,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"class","class",-2030961996),v], 0));
 
@@ -37,8 +37,8 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,cljs.core.keyword.cljs$co
 
 }
 })();
-ks = G__75017;
-m = G__75018;
+ks = G__76433;
+m = G__76434;
 continue;
 }
 break;
@@ -72,12 +72,12 @@ return x;
  */
 hx.utils.camel_case_STAR_ = (function hx$utils$camel_case_STAR_(s){
 if((((s instanceof cljs.core.Keyword)) || (typeof s === 'string') || ((s instanceof cljs.core.Symbol)))){
-var vec__74986 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(cljs.core.name(s),/-/);
-var seq__74987 = cljs.core.seq(vec__74986);
-var first__74988 = cljs.core.first(seq__74987);
-var seq__74987__$1 = cljs.core.next(seq__74987);
-var first_word = first__74988;
-var words = seq__74987__$1;
+var vec__76384 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(cljs.core.name(s),/-/);
+var seq__76385 = cljs.core.seq(vec__76384);
+var first__76386 = cljs.core.first(seq__76385);
+var seq__76385__$1 = cljs.core.next(seq__76385);
+var first_word = first__76386;
+var words = seq__76385__$1;
 if(((cljs.core.empty_QMARK_(words)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("aria",first_word)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("data",first_word)))){
 return s;
 } else {
@@ -100,10 +100,10 @@ var k = cljs.core.key(p);
 var v = cljs.core.val(p);
 hx.utils.set_obj(o,hx.utils.camel_case_STAR_(cljs.core.name(k)),(hx.utils.map__GT_camel_PLUS_js.cljs$core$IFn$_invoke$arity$1 ? hx.utils.map__GT_camel_PLUS_js.cljs$core$IFn$_invoke$arity$1(v) : hx.utils.map__GT_camel_PLUS_js.call(null,v)));
 
-var G__75022 = cljs.core.next(ps);
-var G__75023 = o;
-ps = G__75022;
-o = G__75023;
+var G__76455 = cljs.core.next(ps);
+var G__76456 = o;
+ps = G__76455;
+o = G__76456;
 continue;
 }
 break;
@@ -124,8 +124,8 @@ return x;
  *   as a second arg to disable this.
  */
 hx.utils.clj__GT_props = (function hx$utils$clj__GT_props(var_args){
-var G__74997 = arguments.length;
-switch (G__74997) {
+var G__76405 = arguments.length;
+switch (G__76405) {
 case 1:
 return hx.utils.clj__GT_props.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -154,9 +154,9 @@ return js_props;
 var p = cljs.core.first(pxs);
 var k = cljs.core.key(p);
 var v = cljs.core.val(p);
-var G__75014_75025 = k;
-var G__75014_75026__$1 = (((G__75014_75025 instanceof cljs.core.Keyword))?G__75014_75025.fqn:null);
-switch (G__75014_75026__$1) {
+var G__76419_76462 = k;
+var G__76419_76463__$1 = (((G__76419_76462 instanceof cljs.core.Keyword))?G__76419_76462.fqn:null);
+switch (G__76419_76463__$1) {
 case "style":
 hx.utils.set_obj(js_props,"style",hx.utils.map__GT_camel_PLUS_js(v));
 
@@ -186,10 +186,10 @@ hx.utils.set_obj(js_props,(cljs.core.truth_(native_QMARK_)?hx.utils.camel_case_S
 
 }
 
-var G__75028 = cljs.core.next(pxs);
-var G__75029 = js_props;
-pxs = G__75028;
-js_props = G__75029;
+var G__76473 = cljs.core.next(pxs);
+var G__76474 = js_props;
+pxs = G__76473;
+js_props = G__76474;
 continue;
 }
 break;

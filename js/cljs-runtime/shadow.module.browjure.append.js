@@ -55,11 +55,13 @@ SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$scheduled$sched
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$symbol$iterator.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$util$caughtSchedule.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$scheduled$scheduleIterable.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$scheduled$scheduleAsyncIterable.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$util$isInteropObservable.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$util$isIterable.js");
-SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$scheduled$scheduleAsyncIterable.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$util$isAsyncIterable.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$util$throwUnobservableError.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$util$isReadableStreamLike.js");
+SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$scheduled$scheduleReadableStreamLike.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$scheduled$scheduled.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$observable$from.js");
 SHADOW_ENV.setLoaded("module$node_modules$rxjs$dist$cjs$internal$observable$fromArray.js");
@@ -388,4 +390,6 @@ SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$classCallCheck.
 SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$inherits.js");
 SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$possibleConstructorReturn.js");
 SHADOW_ENV.setLoaded("module$node_modules$$babel$runtime$helpers$getPrototypeOf.js");
+SHADOW_ENV.setLoaded("module$node_modules$process$browser.js");
+SHADOW_ENV.setLoaded("module$node_modules$ieee754$index.js");
 SHADOW_ENV.setLoaded("shadow.module.browjure.append.js");

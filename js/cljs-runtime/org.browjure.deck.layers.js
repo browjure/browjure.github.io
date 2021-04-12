@@ -4,49 +4,49 @@ var module$node_modules$react_map_gl$dist$es5$index=shadow.js.require("module$no
 var module$node_modules$deck_DOT_gl$dist$es5$index=shadow.js.require("module$node_modules$deck_DOT_gl$dist$es5$index", {});
 org.browjure.deck.layers.component_factory = (function org$browjure$deck$layers$component_factory(component){
 return (function() { 
-var G__80022__delegate = function (props,children){
+var G__81565__delegate = function (props,children){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$4(module$node_modules$react$index.createElement,component,cljs.core.clj__GT_js(props),children);
 };
-var G__80022 = function (props,var_args){
+var G__81565 = function (props,var_args){
 var children = null;
 if (arguments.length > 1) {
-var G__80023__i = 0, G__80023__a = new Array(arguments.length -  1);
-while (G__80023__i < G__80023__a.length) {G__80023__a[G__80023__i] = arguments[G__80023__i + 1]; ++G__80023__i;}
-  children = new cljs.core.IndexedSeq(G__80023__a,0,null);
+var G__81569__i = 0, G__81569__a = new Array(arguments.length -  1);
+while (G__81569__i < G__81569__a.length) {G__81569__a[G__81569__i] = arguments[G__81569__i + 1]; ++G__81569__i;}
+  children = new cljs.core.IndexedSeq(G__81569__a,0,null);
 } 
-return G__80022__delegate.call(this,props,children);};
-G__80022.cljs$lang$maxFixedArity = 1;
-G__80022.cljs$lang$applyTo = (function (arglist__80024){
-var props = cljs.core.first(arglist__80024);
-var children = cljs.core.rest(arglist__80024);
-return G__80022__delegate(props,children);
+return G__81565__delegate.call(this,props,children);};
+G__81565.cljs$lang$maxFixedArity = 1;
+G__81565.cljs$lang$applyTo = (function (arglist__81572){
+var props = cljs.core.first(arglist__81572);
+var children = cljs.core.rest(arglist__81572);
+return G__81565__delegate(props,children);
 });
-G__80022.cljs$core$IFn$_invoke$arity$variadic = G__80022__delegate;
-return G__80022;
+G__81565.cljs$core$IFn$_invoke$arity$variadic = G__81565__delegate;
+return G__81565;
 })()
 ;
 });
 org.browjure.deck.layers.layer_factory = (function org$browjure$deck$layers$layer_factory(layer_fn){
 return (function() { 
-var G__80025__delegate = function (arg,rest){
+var G__81575__delegate = function (arg,rest){
 return (new layer_fn(cljs.core.clj__GT_js(arg),rest));
 };
-var G__80025 = function (arg,var_args){
+var G__81575 = function (arg,var_args){
 var rest = null;
 if (arguments.length > 1) {
-var G__80026__i = 0, G__80026__a = new Array(arguments.length -  1);
-while (G__80026__i < G__80026__a.length) {G__80026__a[G__80026__i] = arguments[G__80026__i + 1]; ++G__80026__i;}
-  rest = new cljs.core.IndexedSeq(G__80026__a,0,null);
+var G__81578__i = 0, G__81578__a = new Array(arguments.length -  1);
+while (G__81578__i < G__81578__a.length) {G__81578__a[G__81578__i] = arguments[G__81578__i + 1]; ++G__81578__i;}
+  rest = new cljs.core.IndexedSeq(G__81578__a,0,null);
 } 
-return G__80025__delegate.call(this,arg,rest);};
-G__80025.cljs$lang$maxFixedArity = 1;
-G__80025.cljs$lang$applyTo = (function (arglist__80027){
-var arg = cljs.core.first(arglist__80027);
-var rest = cljs.core.rest(arglist__80027);
-return G__80025__delegate(arg,rest);
+return G__81575__delegate.call(this,arg,rest);};
+G__81575.cljs$lang$maxFixedArity = 1;
+G__81575.cljs$lang$applyTo = (function (arglist__81581){
+var arg = cljs.core.first(arglist__81581);
+var rest = cljs.core.rest(arglist__81581);
+return G__81575__delegate(arg,rest);
 });
-G__80025.cljs$core$IFn$_invoke$arity$variadic = G__80025__delegate;
-return G__80025;
+G__81575.cljs$core$IFn$_invoke$arity$variadic = G__81575__delegate;
+return G__81575;
 })()
 ;
 });

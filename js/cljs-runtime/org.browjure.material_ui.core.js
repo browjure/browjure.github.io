@@ -4,25 +4,25 @@ var module$node_modules$$material_ui$core$index=shadow.js.require("module$node_m
 var module$node_modules$$material_ui$icons$index=shadow.js.require("module$node_modules$$material_ui$icons$index", {});
 org.browjure.material_ui.core.component_factory = (function org$browjure$material_ui$core$component_factory(component){
 return (function() { 
-var G__79979__delegate = function (props,children){
+var G__82603__delegate = function (props,children){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$4(module$node_modules$react$index.createElement,component,cljs.core.clj__GT_js(props),children);
 };
-var G__79979 = function (props,var_args){
+var G__82603 = function (props,var_args){
 var children = null;
 if (arguments.length > 1) {
-var G__79980__i = 0, G__79980__a = new Array(arguments.length -  1);
-while (G__79980__i < G__79980__a.length) {G__79980__a[G__79980__i] = arguments[G__79980__i + 1]; ++G__79980__i;}
-  children = new cljs.core.IndexedSeq(G__79980__a,0,null);
+var G__82604__i = 0, G__82604__a = new Array(arguments.length -  1);
+while (G__82604__i < G__82604__a.length) {G__82604__a[G__82604__i] = arguments[G__82604__i + 1]; ++G__82604__i;}
+  children = new cljs.core.IndexedSeq(G__82604__a,0,null);
 } 
-return G__79979__delegate.call(this,props,children);};
-G__79979.cljs$lang$maxFixedArity = 1;
-G__79979.cljs$lang$applyTo = (function (arglist__79981){
-var props = cljs.core.first(arglist__79981);
-var children = cljs.core.rest(arglist__79981);
-return G__79979__delegate(props,children);
+return G__82603__delegate.call(this,props,children);};
+G__82603.cljs$lang$maxFixedArity = 1;
+G__82603.cljs$lang$applyTo = (function (arglist__82605){
+var props = cljs.core.first(arglist__82605);
+var children = cljs.core.rest(arglist__82605);
+return G__82603__delegate(props,children);
 });
-G__79979.cljs$core$IFn$_invoke$arity$variadic = G__79979__delegate;
-return G__79979;
+G__82603.cljs$core$IFn$_invoke$arity$variadic = G__82603__delegate;
+return G__82603;
 })()
 ;
 });
